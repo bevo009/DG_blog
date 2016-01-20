@@ -1,0 +1,8 @@
+*.pyc
+__pycache__
+e45/
+tests/
+db.sqlite3
+/static
+.DS_Store
+desktop.ini

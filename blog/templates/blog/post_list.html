@@ -7,16 +7,14 @@
             <h1><a href="">Snooga's Blog</a></h1>
         </div>
 
-        <div>
-            <p>published: 18.01.2016 12:14</p>
-            <h2><a href="">My first post</a></h2>
-            <p>Snoogle Snoogle Snoogle!</p>
-        </div>
+        {% for post in posts %}
+            <div>
+                <p>published: {{ post.published_date }}</p>
+                <h2><a href="">{{ post.title }}</a></h2>
+                <p><h3>{{ post.text|linebreaks }}</h3></p>
+            </div>
+        {% endfor %}        
 
-        <div>
-            <p>published: 20.01.2016, 12:14</p>
-            <h2><a href="">TV time</a></h2>
-            <p>Watching the Paws Show! My fav.....</p>
         </div>
     </body>
 </html>

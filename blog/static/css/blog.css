@@ -14,13 +14,18 @@
     margin-left: 40px;
 }
 
+body {
+    color: #E3A130;
+}
+
+
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
 }
 
 .date {
     float: right;
-    color: #828282;
+    color: #E3A130;
 }
 
 .save {
@@ -42,6 +47,10 @@ h1, h2, h3, h4 {
     margin-bottom: 20px;
 }
 
-.post h1 a, .post h1 a:visited {
-    color: #53EB17;
+.post h1 a, .post h1 a:visited {  
+    color: #53EB17; 
+}
+
+body {
+    background-color: #000000;    
 }
